@@ -2,7 +2,7 @@
   "name": "burger",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/tylern88/burger.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tyler Negro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tylern88/burger/issues"
