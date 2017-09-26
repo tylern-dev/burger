@@ -1,4 +1,5 @@
-const orm = require('../config/orm.js');
+const path = require('path');
+const orm = require(path.join(__dirname, '../config/orm.js'));
 
 //using the orm we built for updating the database specific to the burger data
 let burger = {

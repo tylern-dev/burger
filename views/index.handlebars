@@ -9,11 +9,11 @@
 <div class="row">
 {{!-- show burger that has not yet been devoured --}}
     <div class="col-6 not-devoured-container">
-        <ol>
+        <ol class='left-container'>
             {{#each burgers}}
                 {{#unless devoured}}
                     <div class="not-devoured">
-                        <li class="li-fix">{{burger_name}}</li>
+                        <li class="li-fix left-container">{{burger_name}}</li>
                         <form action="/{{this.id}}?_method=PUT" method="POST">
                             <button type="submit" id="eat-burger" >Eat Burger!</button>
                         </form>

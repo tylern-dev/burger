@@ -1,5 +1,6 @@
+const path = require('path')
 const express = require('express');
-const burger = require('../models/burger.js');
+const burger = require(path.join(__dirname, '../models/burger.js'));
 const router = express.Router();
 
 //CREATE ALL THE ROUTES
